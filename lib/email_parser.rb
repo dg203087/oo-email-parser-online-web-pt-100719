@@ -15,7 +15,7 @@ class EmailAddressParser
     end
     final_array = all_emails.flatten.uniq
     final_array
-    @emails.split(/[\s,]+/).uniq
+    #@emails.split(/[\s,]+/).uniq
   end
 end 
 
