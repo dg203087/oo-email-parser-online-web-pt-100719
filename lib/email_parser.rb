@@ -10,10 +10,10 @@ def EmailAddressParser
   end
   
   def self.parse(emails)
-    @csv_emails.collect do |email|
+    @csv_emails.collect.split do |email|
       email.split(",")
     end
-    @csv_emails.flatten.uniq
+    flatten.uniq
   end
   
   
