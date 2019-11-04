@@ -11,7 +11,7 @@ def EmailAddressParser
   
   def parse
     all_emails = @emails.split.collect do |address|
-      address.split(",")
+      address.split(", ")
     end
     final_array = all_emails.flatten.uniq
     final_array
