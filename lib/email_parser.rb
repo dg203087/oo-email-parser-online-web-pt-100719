@@ -10,13 +10,9 @@ def EmailAddressParser
   end
   
   def self.parse(emails)
-    
-    song.name = (file_name.split(" - ")[1].chomp(".mp3")) 
+    @csv_emails.collect do |email|
       
-    song.artist_name = (file_name.split(" - ")[0]) 
-      #splits input and sets the first instance in the array (artist name) equal to artist_name 
-    song 
-  
+    
   
   end
   
