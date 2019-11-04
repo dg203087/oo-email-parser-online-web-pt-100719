@@ -13,6 +13,7 @@ def EmailAddressParser
     all_emails = @emails.split.collect do |address|
       address.split(",")
     end
-    flatten.uniq
+    final_array = all_emails.flatten.uniq
+    final_array
   end
 end 
