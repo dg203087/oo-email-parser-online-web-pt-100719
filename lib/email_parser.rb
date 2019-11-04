@@ -9,7 +9,7 @@ def EmailAddressParser
     @emails = emails
   end
   
-  def self.parse(emails)
+  def parse
     @csv_emails.split.collect do |email|
       email.split(",")
     end
