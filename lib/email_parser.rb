@@ -18,3 +18,4 @@
 #     @emails.split(/[\s,]+/).uniq
 #   end
 # end 
+
