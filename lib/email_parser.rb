@@ -11,7 +11,7 @@ def EmailAddressParser
   
   def self.parse(emails)
     @csv_emails.collect do |email|
-      
+      email.split(", ")
     
   
   end
